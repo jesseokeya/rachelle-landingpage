@@ -4,7 +4,7 @@ landing page for the rachelle application.
 Developer JesseOkeya (http://jesseokeya.herokuapp.com)
 
 ### Version
-1.1.0
+1.0.0
 
 ### Usage
 

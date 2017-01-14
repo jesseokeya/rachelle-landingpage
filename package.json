@@ -1,0 +1,30 @@
+{
+  "name": "rachelle-website",
+  "version": "1.0.0",
+  "description": "landing page for the rachelle.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesseokeya/rachelle-website.git"
+  },
+  "keywords": [
+    "ExpressJs",
+    "NodeJs",
+    "Html",
+    "Css",
+    "JavaScript"
+  ],
+  "author": "Jesse Okeya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesseokeya/rachelle-website/issues"
+  },
+  "homepage": "https://github.com/jesseokeya/rachelle-website#readme",
+  "dependencies": {
+    "lite-server": "^2.2.2"
+  }
+}
