@@ -10,7 +10,7 @@ var nodemon = require('nodemon');
 
 // View Engine
 app.set('views', path.join(__dirname, 'views'));
-app.engine('hbs', exphbs({defaultLayout:'layout', extname: 'hbs'}));
+app.engine('hbs', exphbs({extname: 'hbs'}));
 app.set('view engine', 'hbs');
 
 // Middleware
