@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server"
+    "start": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,13 @@
   },
   "homepage": "https://github.com/jesseokeya/rachelle-website#readme",
   "dependencies": {
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.11.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
     "lite-server": "^2.2.2"
   }
 }
